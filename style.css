@@ -1,0 +1,46 @@
+
+
+h1:hover {
+    color: rgb(255, 0, 102);
+    cursor: pointer;
+  }
+  .btn{
+    background-color: beige;
+    color: black;
+    
+  }
+.btn:hover{
+    background-color: #e6e6ce;
+    color: black;
+}
+
+.btn-group{
+    border: 2 solid black;
+}
+
+
+.mynews:hover{
+    background-color: #eceef0;
+    cursor: pointer;
+}
+
+.accordion-item{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.accordion-header{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+.container{
+    width:50%;
+}
+
+.heading
+{
+    font-size: 20px;
+    padding-top: 1em;
+}

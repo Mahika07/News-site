@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News Stand</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="title.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #4b99d1;">
+
+    <div class="container-fluid  d-flex align-self-stretch justify-content-between">
+
+      <div>
+        <ul class="navbar-nav me-auto  mb-2 mb-lg-0" id="date">
+
+        </ul>
+
+      </div>
+
+      <div>
+        <ul>
+          
+          <span class="navbar-brand mb-0 h1" style="font-size: 40px;color: rgb(224, 6, 6); text-shadow: 0 0 3px #000000, 0 0 5px #000000;">N E W S .</span>
+
+        </ul>
+      </div>
+     
+
+    </div>
+
+
+  </nav>
+  <div class="d-flex flex-column mb-3" style="background-color:rgb(254, 255, 255) ;">
+  <div id="card">
+    <h1 class="my-3" style="text-align:center ;">BREAKING NEWS!</h1>
+    <hr>
+  </div>
+
+ 
+    <div class=" btn-group my-2 mx-5 d-flex justify-content-between" role="group" aria-label="Basic example">
+      <button type="button" class="btn mx-3 newsbtn" id="general">General</button>
+      <button type="button" class="btn mx-3 newsbtn" id="business">Business</button>
+      <button type="button" class="btn mx-3 newsbtn" id="entertainment">Entertainment</button>
+      <button type="button" class="btn mx-3 newsbtn" id="health">Health</button>
+      <button type="button" class="btn mx-3 newsbtn" id="science">Science</button>
+      <button type="button" class="btn mx-3 newsbtn" id="sports">Sports</button>
+      <button type="button" class="btn mx-3 newsbtn" id="technology">Technology</button>
+
+    </div>
+  
+    <div id="newscard" class=" border border-2  my-2 d-flex justify-content-around flex-wrap">
+    
+    </div>
+
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+    <script src="app.js/script.js"></script>
+</body>
+
+</html>
